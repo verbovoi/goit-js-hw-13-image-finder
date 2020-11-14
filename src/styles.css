@@ -25,6 +25,9 @@ body {
 }
 
 .search-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   padding-bottom: 25px;
   text-align: center;
 }
@@ -67,3 +70,13 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.button-search{
+  margin-left: 30px; 
+
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 7px rgba(0, 0, 0, 0.75);
+
+}
+
